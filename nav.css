@@ -1,0 +1,122 @@
+/* Commons styles*/
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    border-top: 1px solid #777777; 
+}
+
+/* Commons nav styles */
+.navigation-wrapper {
+    background-color: #11122b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 25px 60px;
+}
+
+/*Navigation styles*/
+
+/*Center column styles*/
+
+.left-column img{
+    display: block;
+}
+.navigation-wrapper > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.navigation-wrapper> .center-column> .explore p{
+    display: flex;
+    color: #cec435;
+    font-weight: 700;
+    margin: 0;
+
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.links-wrapper > .nav-link a {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-decoration: none; 
+    font-weight: 700;
+    font-size: 1em;
+}
+
+.spark a{
+    color: #757575; 
+    position: relative; 
+    text-decoration: none; 
+}
+
+.down-chevron::after {
+    content: "";
+    margin-left: 10px;
+    display: inline-block;
+    border-left: 2px solid currentColor;
+    border-bottom: 2px solid currentColor;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+  }
+
+/* Right column styles*/
+.right-column {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.right-column> .create-button> .btn-create{
+    background-color: #757575;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    margin: 0;
+}
+
+.right-column> .create-button> .btn-create i{
+    margin-left: 5px;
+    color: #04a856;
+}
+
+
+.right-column > .search{
+    font-size: 1.5em;  
+    color: white;
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+}
+
+.right-column> .top-heading span{
+    background-color: #757575;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 2px;
+    display: inline-block;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+    
+
+
+
+
+
+

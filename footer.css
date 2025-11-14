@@ -1,0 +1,35 @@
+/*Footer styles*/
+
+.footer{
+    background-color: #252527;
+    padding-bottom: 60px;
+}
+
+.footer> .footer-codepen-wrapper> .buttons-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    box-sizing: border-box;
+    background-color: #4c4b4b;
+    box-shadow: inset 0px -26px 79px -8px rgba(0, 0, 0, 0.58);
+    width: 100%;
+}
+
+.btn-code{
+    flex-grow: 1;
+    padding: 5px;
+    border: 1px solid #777777;
+    border-left: none;
+    box-sizing: border-box;
+}
+
+.footer> .footer-codepen-wrapper p{
+    color: #ffffff;
+    margin-left: 50px;
+}
+
+.footer> .footer-codepen-wrapper span{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 1.3em;
+    font-weight: 700;
+}
